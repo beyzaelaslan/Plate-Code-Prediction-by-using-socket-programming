@@ -10,6 +10,9 @@ Establishes a connection to the server.
 Prompts the user to guess the license plate code of a city randomly selected by the server.
 If the guess is correct or incorrect, the client socket to the server closes and the program terminates.
 If the user enters "END," both the client-side and server-side processes terminate.
+
+
+
 Server Side:
 
 Waits for the client's connection and takes action when a client connects.
